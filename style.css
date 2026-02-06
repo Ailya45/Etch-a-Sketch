@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+#container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+#container div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#container div:hover {
+    cursor: pointer;
+}
+
+#button, #button2 {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+} 
